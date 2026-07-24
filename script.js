@@ -13,27 +13,10 @@ alert("कृपया नाम और मोबाइल नंबर भर�
 return;
 }
 
-alert(
-"🙏 धन्यवाद " +
-name +
-"!\n\nआपकी बुकिंग रिक्वेस्ट सफलतापूर्वक दर्ज कर ली गई है।\n\nहम जल्द ही आपसे संपर्क करेंगे।"
-);
+alert("🙏 धन्यवाद " + name + "!\n\nआपकी बुकिंग सफलतापूर्वक दर्ज हो गई है।\nहम जल्द ही आपसे संपर्क करेंगे।");
 
 form.reset();
 
 });
 
 });
-
-// WhatsApp Function
-function openWhatsApp() {
-window.open(
-"https://wa.me/916204026440",
-"_blank"
-);
-}
-
-// Call Function
-function callNow() {
-window.location.href = "tel:+916204026440";
-}
