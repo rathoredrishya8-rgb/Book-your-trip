@@ -1,22 +1,20 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
 const form = document.querySelector("form");
 
-form.addEventListener("submit", function (e) {
+if(form){
+form.addEventListener("submit", function(e){
 e.preventDefault();
 
-const name = form.querySelector('input[type="text"]').value;
-const mobile = form.querySelector('input[type="tel"]').value;
+const name = document.querySelector('input[type="text"]').value;
 
-if (name === "" || mobile === "") {
-alert("कृपया नाम और मोबाइल नंबर भरें।");
-return;
-}
+alert("🙏 धन्यवाद " + name + "!\n\nआपकी बुकिंग सफलतापूर्वक दर्ज हो गई है।\nकृपया 6204026440 पर कॉल या WhatsApp करें।");
 
-alert("🙏 धन्यवाद " + name + "!\n\nआपकी बुकिंग सफलतापूर्वक दर्ज हो गई है।\nहम जल्द ही आपसे संपर्क करेंगे।");
+window.open("https://wa.me/916204026440","_blank");
 
 form.reset();
 
 });
+}
 
 });
