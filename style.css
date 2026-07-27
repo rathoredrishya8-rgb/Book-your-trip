@@ -6,9 +6,11 @@ font-family:Arial,sans-serif;
 scroll-behavior:smooth;
 }
 
-body{
-background:#fff8f0;
-color:#333;
+body {
+    margin: 0;
+    padding: 0;
+    background: url("khatu-shyam.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 header{
