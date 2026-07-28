@@ -38,16 +38,14 @@ font-weight:bold;
 }
 
 .hero{
-background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-url("https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=80");
-background-size:cover;
-background-position:center;
-height:90vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:light blue;
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("khatu-shyam.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero-box{
@@ -57,13 +55,21 @@ border-radius:15px;
 }
 
 .hero h1{
-font-size:45px;
-margin-bottom:15px;
+    color:#87CEFA;
+    font-size:60px;
+    text-shadow:3px 3px 10px black;
 }
 
 .hero p{
-font-size:20px;
-margin-bottom:15px;
+    color:#87CEFA;
+    font-size:28px;
+    text-shadow:2px 2px 8px black;
+}
+
+.logo{
+    color:#87CEFA;
+    font-weight:bold;
+    text-shadow:2px 2px 8px black;
 }
 
 .btn{
